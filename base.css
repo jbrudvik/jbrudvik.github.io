@@ -3,28 +3,26 @@ body {
   padding: 0;
 }
 
-h1 {
-  margin: 4px 0 26px 0;
-  font-weight: 500;
-}
-
 .content {
-  margin: 20px 0 0 0;
-  padding: 0;
   text-align: center;
   color: #333;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
 
-.circle {
-  margin: 0;
+.face {
+  margin: 20px 0 10px 0;
   padding: 0;
   border-width: 2px;
   border-color: #fff;
   border-style: solid;
   border-radius: 50%;
   box-shadow: 0 0 0 4px #39275b;
+}
+
+.name {
+  margin: 0 0 26px 0;
+  font-weight: 500;
 }
 
 .links {
