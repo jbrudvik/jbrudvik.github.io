@@ -11,7 +11,7 @@ body {
 }
 
 .face {
-  margin: 20px 0 10px 0;
+  margin: 18px 0 8px 0;
   padding: 0;
   border-width: 2px;
   border-color: #fff;
@@ -21,7 +21,7 @@ body {
 }
 
 .name {
-  margin: 0 0 26px 0;
+  margin: 0 0 22px 0;
   font-weight: 500;
 }
 
@@ -33,5 +33,5 @@ body {
 }
 
 .links > li {
-  padding: 0 0 24px 0;
+  padding: 0 0 22px 0;
 }
