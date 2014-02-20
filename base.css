@@ -11,7 +11,10 @@ body {
 }
 
 .face {
-  margin: 18px 0 8px 0;
+  background-image: url(face-140x140.png);
+  width: 140px;
+  height: 140px;
+  margin: 18px auto 11px auto;
   padding: 0;
   border-width: 2px;
   border-color: #fff;
@@ -34,4 +37,15 @@ body {
 
 .links > li {
   padding: 0 0 22px 0;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .face {
+    background-image: url(face-280x280.png);
+    background-size: 140px 140px;
+  }
 }
