@@ -11,7 +11,6 @@ body {
 }
 
 .face {
-  visibility: hidden;
   display: block;
   width: 140px;
   height: 140px;
