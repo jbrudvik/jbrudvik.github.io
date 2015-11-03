@@ -24,8 +24,13 @@ body {
 }
 
 .name {
-  margin: 0 0 22px 0;
+  margin: 0 0 8px 0;
   font-weight: 500;
+}
+
+.title {
+  margin: 0 0 22px 0;
+  font-weight: normal;
 }
 
 .links {
