@@ -12,15 +12,15 @@ body {
 
 .face {
   display: block;
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
   margin: 18px auto 11px auto;
   padding: 0;
   border-width: 2px;
   border-color: #fff;
   border-style: solid;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px #39275b;
+  box-shadow: 0 0 0 2px #333;
 }
 
 .name {
