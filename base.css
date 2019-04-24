@@ -13,8 +13,8 @@ body {
 
 .face {
   display: block;
-  width: 180px;
-  height: 180px;
+  width: 360px;
+  height: 360px;
   margin: 18px auto 11px auto;
   padding: 0;
   border-width: 2px;
