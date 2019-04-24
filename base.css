@@ -20,7 +20,7 @@ body {
   border-width: 2px;
   border-color: #fff;
   border-style: solid;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   box-shadow: 0 0 0 2px #333;
 }
 
