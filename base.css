@@ -6,7 +6,6 @@ body {
 .content {
   padding: 0 10px;
   text-align: center;
-  color: #333;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-family: -apple-system, "BlinkMacSystemFont", ".SFNSDisplay-Regular",
     "Helvetica Neue", "Segoe UI", Arial, sans-serif;
@@ -19,10 +18,8 @@ body {
   margin: 18px auto 15px auto;
   padding: 0;
   border-width: 1px;
-  border-color: #fff;
   border-style: solid;
   border-radius: 50%;
-  box-shadow: 0 0 0 1px #333;
 }
 
 .name {
@@ -46,4 +43,66 @@ body {
 
 .links > li {
   padding: 0 0 24px 0;
+}
+
+.fa {
+  margin-right: 4px;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #fff;
+    color: #333;
+  }
+
+  .face {
+    border-color: #fff;
+    box-shadow: 0 0 0 1px #333;
+  }
+
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    color: #05d;
+  }
+
+  a:link,
+  a:visited,
+  a:active {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000;
+    color: #ccc;
+  }
+
+  .face {
+    border-color: #000;
+    box-shadow: 0 0 0 1px #ccc;
+  }
+
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    color: #2af;
+  }
+
+  a:link,
+  a:visited,
+  a:active {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 }
