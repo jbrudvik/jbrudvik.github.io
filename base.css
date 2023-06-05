@@ -57,16 +57,6 @@ body {
   margin-right: 4px;
 }
 
-a:link,
-a:visited,
-a:active {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 @media (prefers-color-scheme: light) {
   body {
     background-color: #fff;
