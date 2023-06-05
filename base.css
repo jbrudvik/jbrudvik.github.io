@@ -53,10 +53,6 @@ body {
   padding: 0 0 24px 0;
 }
 
-.fa {
-  margin-right: 4px;
-}
-
 @media (prefers-color-scheme: light) {
   body {
     background-color: #fff;
