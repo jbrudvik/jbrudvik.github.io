@@ -1,14 +1,23 @@
 body {
+  font-family: Palatino, Garamond, serif;
+  font-weight: normal;
   margin: 0;
   padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
 }
 
 .content {
   padding: 0 10px;
   text-align: center;
-  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-family: -apple-system, "BlinkMacSystemFont", ".SFNSDisplay-Regular",
-    "Helvetica Neue", "Segoe UI", Arial, sans-serif;
 }
 
 .face {
@@ -22,10 +31,9 @@ body {
   border-radius: 50%;
 }
 
-.name {
-  margin: 0 0 10px 0;
-  font-size: 1.8em;
-  font-weight: bold;
+h1 {
+  margin: 0 0 14px 0;
+  font-size: 2.4em;
 }
 
 .description {
@@ -44,6 +52,8 @@ body {
 }
 
 .links {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: normal;
   margin: 0;
   padding: 0;
   list-style-type: none;
